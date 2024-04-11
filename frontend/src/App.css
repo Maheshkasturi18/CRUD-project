@@ -1,0 +1,23 @@
+.crud .container{
+  width: 700px !important;
+}
+
+.crud{
+  background-color: dimgray;
+}
+
+
+.addconatiner{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addconatiner form{
+  /* width: 50%; */
+  background-color: aliceblue;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
