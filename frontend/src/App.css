@@ -1,23 +1,40 @@
-.crud .container{
+.crud .container {
   width: 700px !important;
 }
 
-.crud{
+.crud {
   background-color: dimgray;
 }
 
-
-.addconatiner{
-
+.addconatiner {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.addconatiner form{
+.addconatiner form {
   /* width: 50%; */
   background-color: aliceblue;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
+}
+
+.tableContainer {
+  margin-top: 50px;
+}
+
+.tableContainer table thead tr {
+  background-color: #f0aaaf;
+}
+
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td {
+  min-width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.tableContainer table tbody tr td {
+ border-bottom: 1px solid black;
 }
